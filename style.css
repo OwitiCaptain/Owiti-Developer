@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 45px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  color: black;
+}
+
+.boxes {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: green;
+  font-family: 'poppins', sans-serif;
+}
+
+hr {
+  margin: 20px;
+  height: 4px;
+  background-color:green;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="checkbox"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-style: 1px solid green;
+    border-radius: 5px;
+    font-size: 14px;
+    background: whitesmoke;
+    color: green;
+}
+
+option {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.agree {
+  display: flex;
+}
+
+.agree input[type="checkbox"] {
+  padding: 2px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px black;
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  color: white;
+  background-color: grey;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  margin-top: 20px; /* Space between form and copyright */
+  font-size: 12px; /* Smaller font size for copyright */
+  color: green; /* White color for visibility */
+}
